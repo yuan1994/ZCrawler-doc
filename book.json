@@ -1,0 +1,65 @@
+{
+  "gitbook": "3.x.x",
+  "title": "ZCrawler -【正方教务】爬虫文档",
+  "language": "zh-hans",
+  "description": "ZCrawler是一个【正方教务】爬虫程序，支持成绩查询、考试查询、课表查询、四六级成绩查询、四六级报名、选课查询、修改密码、获取用户菜单等功能，并且解析数据成易读格式",
+  "author": "yuan1994",
+  "introduction": {
+    "path": "",
+    "title": "ZCrawler"
+  },
+  "plugins": [
+    "-sharing",
+    "duoshuo",
+    "mermaid",
+    "github",
+    "editlink",
+    "highlight",
+    "splitter",
+    "sitemap",
+    "3-ba",
+    "donate",
+    "-lunr",
+    "-search",
+    "search-pro",
+    "book-summary-scroll-position-saver",
+    "anchor-navigation-ex"
+  ],
+  "pluginsConfig": {
+    "github": {
+      "url": "https://github.com/yuan1994/ZCrawler"
+    },
+    "editlink": {
+      "base": "https://github.com/yuan1994/ZCrawler-doc/blob/master/",
+      "label": "编辑本页"
+    },
+    "3-ba": {
+      "token": "586f278a13003799f5c8ba57501b8dc8"
+    },
+    "sitemap": {
+      "hostname": "http://zcrawler.yuan1994.com/"
+    },
+    "anchor-navigation-ex": {
+      "isRewritePageTitle": false,
+      "isShowTocTitleIcon": true,
+      "tocLevel1Icon": "fa fa-circle",
+      "tocLevel2Icon": "fa fa-dot-circle-o",
+      "tocLevel3Icon": "fa fa-circle-o"
+    },
+    "duoshuo": {
+      "short_name": "zcrawler",
+      "theme": "default"
+    },
+    "donate": {
+      "wechat": "http://qiniu.yuan1994.com/images/wechat-pay.jpg",
+      "alipay": "http://qiniu.yuan1994.com/images/ali-pay.jpg",
+      "title": "",
+      "button": "打赏",
+      "alipayText": "支付宝打赏",
+      "wechatText": "微信打赏"
+    }
+  },
+  "structure": {
+    "readme": "Index.md"
+  }
+}
